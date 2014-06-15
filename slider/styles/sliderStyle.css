@@ -34,19 +34,21 @@ ul{
 	display:block;
 	float:left;
 	text-decoration: none;
-	margin-right: 10px;
-	margin-top: 10px;
+	margin-right: 5px;
+	margin-top: 5px;
 	margin-bottom: 10px;
-	padding: 5px;
+	padding: 5 20 5 20;
 }
 #gotoSlide a:hover{
 	background: grey;
+	opacity: 0.8;
 }
 #gotoSlide .active{
 	background: grey;
+	opacity: 0.8;
 }
 #dealOfTheDayWrapper{
-	width:100%;height:200px;
+	width:100%;height:200px;margin-bottom: 30px;
 }
 .dealOfTheDay{
 	width: 33.33%;height:100%;float: left;
@@ -58,17 +60,23 @@ ul{
 	position:relative;
 }
 #countDownWrapper {
-	position:absolute;top:10px;width: 100%;text-align: center;
+	position:absolute;top:65px;width: 100%;text-align: center;
+}
+#countDownWrapper input{
+	position:relative;top:10px;
 }
 #shopDeal{
 	background: url(http://placehold.it/350x150);
 }
-hr{
-	width:98%;
-}
 #offerSignUp{
-	margin-right: auto; margin-left: auto;
+	width:98%;text-align: center;border-top: solid;border-color: #b7d775;margin-left: auto;margin-right: auto;padding-top: 20px;position: relative;
 }
 #offerSignUp p{
 	display: inline-block;
+}
+#offerSignUp input{
+	margin-left: 10px;display: inline-block;margin-right: 0;
+}
+#offerSignUp .go{
+	background: url(http://placehold.it/350x150);width:22px;height: 22px;display: inline-block;position: absolute;top: 35px;
 }
