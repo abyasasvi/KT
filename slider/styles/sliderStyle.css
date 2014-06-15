@@ -1,0 +1,74 @@
+body{
+	margin:30px;
+}
+#headerSec{
+	width:100%; height:100px;margin-bottom: 20;
+}
+#headerSec img{
+	width:100%;height:100%;
+}
+.bxslider{
+	height:350px;position:absolute;
+}
+.bxslider img{
+	width:100%;height:100%;
+}
+.bx-wrapper {
+	margin:0px;
+}
+.bx-wrapper .bx-viewport {
+	border:0px;
+	left: 0px;
+}
+ul{
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-padding-start:0px;
+}
+#gotoSlide{
+	margin-bottom: 5;
+	margin-top: 5;
+	height:45px;
+}
+#gotoSlide a{
+	display:block;
+	float:left;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+#gotoSlide a:hover{
+	background: grey;
+}
+#gotoSlide .active{
+	background: grey;
+}
+#dealOfTheDayWrapper{
+	width:100%;height:200px;
+}
+.dealOfTheDay{
+	width: 33.33%;height:100%;float: left;
+}
+.dealOfTheDay img{
+	width: 100%;height:100%;
+}
+.dealOfTheDay:last-child{
+	position:relative;
+}
+#countDownWrapper {
+	position:absolute;top:10px;width: 100%;text-align: center;
+}
+#shopDeal{
+	background: url(http://placehold.it/350x150);
+}
+hr{
+	width:98%;
+}
+#offerSignUp{
+	margin-right: auto; margin-left: auto;
+}
+#offerSignUp p{
+	display: inline-block;
+}
