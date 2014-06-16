@@ -15,6 +15,8 @@ $(function() {
 		var hoursLeft = Math.floor(remSeconds/3600000);
 		remSeconds = remSeconds % 3600000;
 		var minsLeft = Math.floor(remSeconds/60000);
-		$("#countDown").html(" "+(hoursLeft ? (hoursLeft+" hours, ") : "")+minsLeft+" minutes " );
+		remSeconds = remSeconds % 60000;
+		var secsLeft = Math.floor(remSeconds/1000);
+		$("#countDown").html(" "+(hoursLeft ? (hoursLeft+" hours, ") : "")+minsLeft+" minutes, "+secsLeft+" seconds." );
 	},1000)
 });

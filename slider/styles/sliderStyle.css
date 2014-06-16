@@ -1,11 +1,27 @@
 body{
-	margin:30px;
+	width:1040px;
+	margin:0 auto;
 }
 #headerSec{
 	width:100%; height:100px;margin-bottom: 20;
 }
 #headerSec img{
 	width:100%;height:100%;
+}
+#giftHead{
+	text-align: center;
+}
+#giftHead h1{
+	display: inline;background: #fff;
+	padding: 0 10;color: #58585a;
+	font-size: 20;font-style:italic;
+font-weight: 600;
+}
+.strikeBar{
+	width: 1000px;border: solid;
+	margin: auto;
+	border-width: 1;margin-top: -13;
+	margin-bottom: 35;border-color: #ccc;
 }
 .bxslider{
 	height:350px;position:absolute;
@@ -33,19 +49,19 @@ ul{
 #gotoSlide a{
 	display:block;
 	float:left;
-	text-decoration: none;
+	text-decoration: none;text-transform: uppercase;
+	color: #58585b;font-family: Arial;
 	margin-right: 5px;
-	margin-top: 5px;
 	margin-bottom: 10px;
-	padding: 5 20 5 20;
+	padding: 5 15 5 15;
 }
 #gotoSlide a:hover{
-	background: grey;
-	opacity: 0.8;
+	background: #f3f3f3;
+	font-weight:bold;
 }
 #gotoSlide .active{
-	background: grey;
-	opacity: 0.8;
+	background: #f3f3f3;
+	font-weight:bold;
 }
 #dealOfTheDayWrapper{
 	width:100%;height:200px;margin-bottom: 30px;
@@ -72,11 +88,14 @@ ul{
 	width:98%;text-align: center;border-top: solid;border-color: #b7d775;margin-left: auto;margin-right: auto;padding-top: 20px;position: relative;
 }
 #offerSignUp p{
-	display: inline-block;
+	display: inline-block;color: #58585b;font-family: Arial;font-size: 15;
 }
 #offerSignUp input{
 	margin-left: 10px;display: inline-block;margin-right: 0;
 }
+#offerSignUp ::-webkit-input-placeholder {
+	padding:0 0 0 10;
+}
 #offerSignUp .go{
-	background: url(http://placehold.it/350x150);width:22px;height: 22px;display: inline-block;position: absolute;top: 35px;
+	background: url(http://placehold.it/350x150);width:22px;height: 22px;display: inline-block;position: absolute;top: 33px;
 }
